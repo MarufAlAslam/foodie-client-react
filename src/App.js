@@ -24,7 +24,7 @@ function App() {
         {
           path: '/',
           element: <Home></Home>,
-          loader: () => fetch("http://localhost:5000/chefs")
+          loader: () => fetch("https://foodie-server-snowy.vercel.app/chefs")
         },
         {
           path: '/blogs',
@@ -33,12 +33,12 @@ function App() {
         {
           path: '/recipes',
           element: <Chefs></Chefs>,
-          loader: () => fetch("http://localhost:5000/chefs")
+          loader: () => fetch("https://foodie-server-snowy.vercel.app/chefs")
         },
         {
           path: '/chef/:id',
           element: <PrivateRoute><ChefDetails></ChefDetails></PrivateRoute>,
-          loader: ({ params }) => fetch(`http://localhost:5000/chefs/${params.id}`)
+          loader: ({ params }) => fetch(`https://foodie-server-snowy.vercel.app/chefs/${params.id}`)
         },
         {
           path: '/faqs',
@@ -62,17 +62,17 @@ function App() {
         },
         {
           path: '/course-details/:id',
-          loader: ({ params }) => fetch(`http://localhost:5000/courses/${params.id}`),
+          loader: ({ params }) => fetch(`https://foodie-server-snowy.vercel.app/courses/${params.id}`),
           element: <ChefDetails></ChefDetails>
         },
         {
           path: '/checkout/:id',
-          loader: ({ params }) => fetch(`http://localhost:5000/courses/${params.id}`),
+          loader: ({ params }) => fetch(`https://foodie-server-snowy.vercel.app/courses/${params.id}`),
           element: <PrivateRoute><Checkout></Checkout></PrivateRoute>
         },
         {
           path: '/filter/:category',
-          loader: () => fetch("http://localhost:5000/courses"),
+          loader: () => fetch("https://foodie-server-snowy.vercel.app/courses"),
           element: <Filter></Filter>
         },
         {
