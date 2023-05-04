@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaStar, FaThumbsUp, FaUser } from 'react-icons/fa';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { Link } from 'react-router-dom';
 import './Chefs.css';
 
@@ -13,7 +14,21 @@ const Chef = ({ chef }) => {
                     </div>
                 </div>
                 <figure className='block mr-auto ml-5'>
-                    <img src={chef.picture_url} className='rounded block' alt={chef.name} />
+                    <LazyLoadImage
+                        src={chef.picture_url}
+                        alt={chef.name}
+                        className='rounded block'
+                        loading='lazy'
+                        // effect='blur'
+                        afterLoad={
+                            () => {
+                                console.log('Image Loaded');
+                            }
+                        }
+                        width={200}
+                        height={200}
+                    />
+                    {/* <img src={chef.picture_url} className='rounded block' alt={chef.name} /> */}
                 </figure>
                 <div className="card-body p-4">
                 <h2 className="text-xl mt-4 text-center text-white font-bold">
