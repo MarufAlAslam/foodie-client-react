@@ -4,7 +4,7 @@ import Blogs from './pages/Blogs/Blogs';
 import Broken from './pages/Broken/Broken';
 import Checkout from './pages/Checkout/Checkout';
 import CourseDetails from './pages/CourseDetails/CourseDetails';
-import Courses from './pages/Courses/Courses';
+import Chefs from './pages/Chefs/Chefs';
 import Faqs from './pages/Faqs/Faqs';
 import Filter from './pages/Filter/Filter';
 import Home from './pages/Home/Home';
@@ -24,7 +24,7 @@ function App() {
         {
           path: '/',
           element: <Home></Home>,
-          loader: () => fetch("http://localhost:5000/courses")
+          loader: () => fetch("http://localhost:5000/chefs")
         },
         {
           path: '/blogs',
@@ -32,8 +32,8 @@ function App() {
         },
         {
           path: '/recipes',
-          element: <Courses></Courses>,
-          loader: () => fetch("http://localhost:5000/courses")
+          element: <Chefs></Chefs>,
+          loader: () => fetch("http://localhost:5000/chefs")
         },
         {
           path: '/faqs',

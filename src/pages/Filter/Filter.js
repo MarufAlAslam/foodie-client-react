@@ -1,6 +1,6 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
-import Course from '../../components/Course/Course';
+import Chef from '../../components/Chefs/Chefs';
 
 const Filter = () => {
     const data = useLoaderData()
@@ -12,7 +12,7 @@ const Filter = () => {
             </h2>
             <div className='grid lg:grid-cols-3 gap-4'>
                 {data.filter(course => course.category === category).map((course) => (
-                    <Course key={course.id} course={course}></Course>
+                    <Chef key={course.id} course={course}></Chef>
                 ))}
             </div>
         </div>
