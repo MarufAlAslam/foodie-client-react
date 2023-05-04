@@ -10,34 +10,34 @@ const Blogs = () => {
 
                 <div className='mt-5'>
                     <h2 className='text-2xl'>
-                        1.  what is cors?
+                        1.  Tell us the differences between uncontrolled and controlled components?
                     </h2>
                     <p>
-                        Cross-Origin Resource Sharing (CORS) is a mechanism that uses additional HTTP headers to tell a browser to let a web application running at one origin (domain) have permission to access selected resources from a server at a different origin. A web application executes a cross-origin HTTP request when it requests a resource that has a different origin (domain, protocol, or port) from its own.
+                        Uncontrolled components are the components that store their own state internally, and you query the DOM using a ref to find its current value when you need it. This is a bit more like traditional HTML.
                     </p>
                 </div>
                 <div className='mt-5'>
                     <h2 className='text-2xl'>
-                        2.  Why are you using firebase? What other options do you have to implement authentication?
+                        2.  How to validate React props using PropTypes?
                     </h2>
                     <p>
-                        I am using firebase because it is easy to implement and it is free. I can use other options like Auth0, AWS Cognito, Okta, etc.
+                        PropTypes is a way to ensure that the data received from props is valid. For example, if we have a component that expects a prop called name, we can define the type of this prop as a string in the component’s propTypes object. If the prop passed to the component is not a string, we will get a warning in the console.
                     </p>
                 </div>
                 <div className='mt-5'>
                     <h2 className='text-2xl'>
-                        3.  How does the private route work?
+                        3.  Tell us the difference between nodejs and express js.
                     </h2>
                     <p>
-                        Private route is a route that is only accessible to authenticated users. It is implemented by checking if the user is authenticated or not. If the user is authenticated, then the user is allowed to access the route. If the user is not authenticated, then the user is redirected to the login page.
+                        Node.js is a runtime environment for JavaScript that runs on the server. Express.js is a framework that runs on top of Node.js. It helps manage the routes of the server and simplifies the code. It is not mandatory to use Express.js with Node.js but it makes things easier.
                     </p>
                 </div>
                 <div className='mt-5'>
                     <h2 className='text-2xl'>
-                        4. What is Node? How does Node work?
+                        4. What is a custom hook, and why will you create a custom hook?
                     </h2>
                     <p>
-                        Node.js, or Node is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser. Node.js lets developers use JavaScript to write command line tools and for server-side scripting—running scripts server-side to produce dynamic web page content before the page is sent to the user's web browser.
+                        A custom hook is a JavaScript function whose name starts with “use” and that may call other hooks. For example, useFriendStatus below is our first custom hook:
                     </p>
                 </div>
             </div>
