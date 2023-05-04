@@ -25,30 +25,27 @@ const Home = () => {
             <About></About>
 
             <div className='lg:w-3/4 w-full mx-auto py-10'>
+            <h2 className='text-3xl font-bold text-center text-white mb-8'>Our Stats</h2>
                 <div className='lg:flex'>
                     <div className='lg:w-1/4 text-center lg:p-0 p-4'>
-                        <p>Total</p>
                         <h2 className='text-6xl font-bold'>
                             <CountUp end={course.length} />
                         </h2>
                         <p className='text-xl'>Courses</p>
                     </div>
                     <div className='lg:w-1/4 text-center lg:p-0 p-4'>
-                        <p>Total</p>
                         <h2 className='text-6xl font-bold'>
                             <CountUp end={totalTime} />
                         </h2>
                         <p className='text-xl'>Hours</p>
                     </div>
                     <div className='lg:w-1/4 text-center lg:p-0 p-4'>
-                        <p>Total</p>
                         <h2 className='text-6xl font-bold'>
                             <CountUp end={totalStudents} />
                         </h2>
                         <p className='text-xl'>Students</p>
                     </div>
                     <div className='lg:w-1/4 text-center lg:p-0 p-4'>
-                        <p>Total</p>
                         <h2 className='text-6xl font-bold'>
                             <CountUp end={totalVideos} />
                         </h2>
