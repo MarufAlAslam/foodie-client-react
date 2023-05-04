@@ -4,3 +4,10 @@
     background-size: cover;
     background-position: right top;
 }
+
+.who-bg {
+    background-image: url('./we.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top;
+}

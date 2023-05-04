@@ -7,6 +7,7 @@ import { useLoaderData } from 'react-router-dom';
 import Chef from '../../components/Chefs/Chefs';
 import { FaStar } from 'react-icons/fa';
 import './Home.css';
+import Team from '../../components/Team/Team';
 
 const Home = () => {
     const chefs = useLoaderData();
@@ -60,6 +61,8 @@ const Home = () => {
                     }
                 </div>
             </div>
+
+            <Team/>
         </div>
     );
 };

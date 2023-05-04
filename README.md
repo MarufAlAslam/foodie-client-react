@@ -1,6 +1,6 @@
 <center>
 
-# Welcome Abroad! You are seeing the awesome project "Brain-Exercise"
+# Welcome Abroad! You are seeing the awesome project "Foodie"
 
 </center>
 
@@ -54,7 +54,7 @@ and so on.
 
 14. Deploy the app using <span style='color: yellow'>`firebase deploy`<span>
 
-15. Go to the live link <a href="http://brain-exercise-60233.web.app/">From Here</a> and enjoy the app
+15. Go to the live link <a href="https://foodie-b1ba5.web.app/login">From Here</a> and enjoy the app
 
 
 ---

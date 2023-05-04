@@ -19,6 +19,18 @@ const About = () => {
                     <div className='w-full h-full ml-16 about-bg'></div>
                 </div>
             </div>
+            <div className='lg:flex lg:w-3/4 mx-auto my-14'>
+                
+            <div className='lg:w-1/2'>
+                    <div className='w-full h-full who-bg'></div>
+                </div>
+                <div className='lg:w-1/2 ml-16'>
+                    <h2 className='text-white text-4xl mb-5'>Who We are?</h2>
+                    <p className='text-xl'>
+                        We are a team of foodies who love to cook and eat. We are passionate about sharing our recipes with the world, so we created this website to make it easy for you to find delicious recipes that are easy to follow and guaranteed to impress. Our collection includes everything from classic comfort foods to innovative new dishes, and we're constantly updating our offerings to keep your taste buds excited.
+                    </p>
+                </div>
+            </div>
         </div>
     );
 };

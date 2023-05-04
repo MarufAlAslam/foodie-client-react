@@ -9,18 +9,18 @@ const Footer = () => {
                 <div className='lg:flex justify-between'>
                     <div className='lg:w-1/4 lg:m-0 my-4 lg:pr-6'>
                         <h2 className='text-xl text-white font-bold'>
-                            BrainExercise
+                            Foodie
                         </h2>
                         <p className='text-white mt-5 mb-4'>
-                            BrainExercise is a platform where you can learn and practice programming skills. We have a large collection of courses and practice problems.
+                           Foodie is a platform where you can find your favorite recipes and chefs. You can also share your recipes and experience with us.
                         </p>
                         <ul>
                             <li>
                                 Phone: <a href="tel:+880 1234 5678">+880 1234 5678</a>
                             </li>
                             <li>
-                                Email: <a href="mailto: admin@brainexercise.com">
-                                    admin@brainexercise.com
+                                Email: <a href="mailto: admin@foodie.com">
+                                    admin@foodie.com
                                 </a>
                             </li>
                         </ul>
@@ -84,7 +84,7 @@ const Footer = () => {
                             Find Us Here:
                         </h2>
                         <p>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.520574574989!2d90.4073823143665!3d23.81033298456255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7a2f5c3c8d7%3A0x7b3b3b3b3b3b3b3b!2sBrainExercise!5e0!3m2!1sen!2sbd!4v1625581000000!5m2!1sen!2sbd" title='myLoc' width="100%" height="200" style={{ border: 0 }} allowFullScreen="" loading="lazy"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.520574574989!2d90.4073823143665!3d23.81033298456255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7a2f5c3c8d7%3A0x7b3b3b3b3b3b3b3b!Foodie!5e0!3m2!1sen!2sbd!4v1625581000000!5m2!1sen!2sbd" title='myLoc' width="100%" height="200" style={{ border: 0 }} allowFullScreen="" loading="lazy"></iframe>
                         </p>
                     </div>
                 </div>

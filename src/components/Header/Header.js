@@ -26,7 +26,7 @@ const Header = () => {
                     </label>
                     <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                         <li><NavLink eventkey="1" to='/' end>HOME</NavLink></li>
-                        <li><NavLink eventkey="2" to='/recipes' end>RECIPES</NavLink></li>
+                        <li><NavLink eventkey="2" to='/recipes' end>CHEFS</NavLink></li>
                         <li><NavLink eventkey="3" to='/faqs' end>FAQS</NavLink></li>
                         <li><NavLink eventkey="4" to='/blogs' end>BLOGS</NavLink></li>
                         <li><NavLink eventkey="5" to='/login' end>SIGN IN</NavLink></li>
@@ -35,13 +35,13 @@ const Header = () => {
                 </div>
                 <Link className="btn btn-ghost normal-case text-3xl logoBtn" to='/'>
                     <img src={icon} className='logo w-100 mr-2' alt="" />
-                    <span className='text-yellow-400'>Food</span><span>ie</span> <small className='lg:hidden'>BE</small>
+                    <span className='text-yellow-400'>Food</span><span>ie</span> <small className='lg:hidden'></small>
                 </Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal p-0">
                     <li><NavLink eventkey="1" to='/' end>HOME</NavLink></li>
-                    <li><NavLink eventkey="2" to='/recipes' end>RECIPES</NavLink></li>
+                    <li><NavLink eventkey="2" to='/recipes' end>CHEFS</NavLink></li>
                     <li><NavLink eventkey="3" to='/faqs' end>FAQS</NavLink></li>
                     <li><NavLink eventkey="4" to='/blogs' end>BLOGS</NavLink></li>
                 </ul>
