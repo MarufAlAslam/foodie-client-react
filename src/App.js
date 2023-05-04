@@ -3,7 +3,7 @@ import './App.css';
 import Blogs from './pages/Blogs/Blogs';
 import Broken from './pages/Broken/Broken';
 import Checkout from './pages/Checkout/Checkout';
-import CourseDetails from './pages/CourseDetails/CourseDetails';
+import ChefDetails from './pages/ChefDetails/ChefDetails';
 import Chefs from './pages/Chefs/Chefs';
 import Faqs from './pages/Faqs/Faqs';
 import Filter from './pages/Filter/Filter';
@@ -36,6 +36,11 @@ function App() {
           loader: () => fetch("http://localhost:5000/chefs")
         },
         {
+          path: '/chef/:id',
+          element: <PrivateRoute><ChefDetails></ChefDetails></PrivateRoute>,
+          loader: ({ params }) => fetch(`http://localhost:5000/chefs/${params.id}`)
+        },
+        {
           path: '/faqs',
           element: <Faqs></Faqs>
         },
@@ -58,7 +63,7 @@ function App() {
         {
           path: '/course-details/:id',
           loader: ({ params }) => fetch(`http://localhost:5000/courses/${params.id}`),
-          element: <CourseDetails></CourseDetails>
+          element: <ChefDetails></ChefDetails>
         },
         {
           path: '/checkout/:id',

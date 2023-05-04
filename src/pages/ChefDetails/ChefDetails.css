@@ -26,6 +26,11 @@ img.w-full.course-banner {
     z-index: 1;
 }
 
+.py-24.chefBanner {
+    position: relative;
+    z-index: 1;
+}
+
 @media screen and (max-width: 992px) {
     img.w-full.course-banner {
         position: unset;
