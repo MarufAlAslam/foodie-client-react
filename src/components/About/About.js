@@ -8,8 +8,11 @@ const About = () => {
                 <div className='lg:w-1/2'>
                     <h2 className='text-white text-4xl mb-5'>About</h2>
                     <p className='text-xl'>
-                        BrainExercise is an online learning platform where you can learn and practice programming skills.
-                        Here you can learn programming languages and you can also enlarge your skills. We have a large collection of courses and practice problems, and a number of courses are being added every day. Our Instructors are friendly enough to help you out.
+                        Welcome to our recipe website, where cooking and creativity come together! Our platform is designed to provide foodies of all levels with an endless variety of delicious recipes that are easy to follow and guaranteed to impress. Our collection includes everything from classic comfort foods to innovative new dishes, and we're constantly updating our offerings to keep your taste buds excited.
+                        <br /> <br />
+                        But we're more than just a recipe website. We believe that cooking is a way to connect with others, express yourself, and explore new cultures. That's why we also offer a wealth of resources and cooking tips to help you expand your culinary skills and knowledge. Plus, our community of food lovers is always here to offer support and inspiration along the way.
+                        <br /> <br />
+                        So whether you're looking to master a new technique, impress your dinner guests, or simply enjoy a delicious meal, our recipe website has everything you need to succeed in the kitchen. Explore our collection today and let your culinary journey begin!
                     </p>
                 </div>
                 <div className='lg:w-1/2'>
