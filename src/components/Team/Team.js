@@ -3,7 +3,7 @@ import React from 'react'
 const Team = () => {
     return (
         <section class="py-10">
-            <div class="lg:px-14 lg:w-5/6 w-full mx-auto">
+            <div class="lg:px-14 px-3 lg:w-5/6 w-full mx-auto">
                 <div class="max-w-3xl mx-auto text-center">
                     <h2 class="text-3xl font-bold text-white">People who made it successful</h2>
                     <p class="max-w-2xl mx-auto mt-4 text-xl text-white">
